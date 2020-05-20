@@ -1,0 +1,51 @@
+{
+  "name": "@godotdotdot/egg-nodemailer",
+  "version": "1.0.0",
+  "description": "nodemailer plugin for Egg.js.",
+  "registry": "",
+  "eggPlugin": {
+    "name": "nodemailer",
+    "dependencies": [
+      "ejs"
+    ]
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "dependencies": {
+    "@types/nodemailer": "^6.2.1",
+    "juice": "^5.2.0",
+    "nodemailer": "^6.3.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov"
+  },
+  "files": [
+    "config",
+    "lib",
+    "app.js",
+    "index.d.ts"
+  ],
+  "ci": {
+    "version": "8, 9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoDotDotDot/egg-nodemailer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GoDotDotDot/egg-nodemailer/issues"
+  },
+  "homepage": "https://github.com/GoDotDotDot/egg-nodemailer#readme",
+  "author": "godotdotdot",
+  "license": "MIT"
+}
