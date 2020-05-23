@@ -1,5 +1,7 @@
 # egg-nodemailer
 
+# See [https://github.com/mete-work/egg-nodemailer#readme](https://github.com/mete-work/egg-nodemailer#readme)
+
 `egg-nodemailer` 是一个基于 [nodemailer](https://nodemailer.com/) 的 egg plugin。
 
 ## 如何使用
